@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/styles.css" rel ="stylesheet" type="text/css" media ="all">
+
+    <title>Quiz-Hub</title>
+  </head>
+
+  <body>
+    <div class="hub-container">
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Quiz-Hub</h1>
+        </div>
+      </div>
+
+        <form id="quiz">
+          <div class="container">
+            <ol>
+              <div class="query1">
+
+                <p class ="q1">
+                  <li>What is an expression?</li>
+                </p>
+                <button class="btn btn-success" name ="question1" id="not" value="not">one which is embedded directly into HTML</button>
+                <button class="btn btn-warning" name = "question1" id="false" value ="false">A Scripting language</button>
+                <button class="btn btn-danger"  name = "question1"id="true" value="true">A fragment of code that produces a value</button>
+              </div>
+              <div class ="query2">
+                <p class ="q2">
+                  <li>Which of these is not an array method?</li>
+                </p>
+                <button class="btn btn-success" name ="question2" id="true" value="true">concat()</button>
+                <button class="btn btn-warning" name ="question2" id="not" value="not">fixed()</button>
+                <button class="btn btn-danger"  name ="question2" id="false" value="false">filter()</button>
+              </div>
+              <div class ="query3">
+                <p class ="q3">
+                  <li>Which one is not a popub box?</li>
+                </p>
+                <button class="btn btn-success" name ="question3" id="true" value="true">continue</button>
+                <button class="btn btn-warning" name ="question3" id="not" value="not">prompt</button>
+                <button class="btn btn-danger"  name ="question3" id="false" value="false">alert</button>
+              </div>
+            </ol>
+        </div>
+      </form>
+    <div class="jumbotron jumbotron-fluid">
+      <div class ="submit">
+        <button type="submit" id="su" onclick="hub()" value="sub">Submit</button>
+
+
+
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
